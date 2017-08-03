@@ -7,9 +7,17 @@
 		.paragrafas {
 			color: green;
 
+
 		}
 		 .nuoroda{
+		 	padding: 20px;
 		 	color: orange;
+		 	background-color: blue;
+		 	border: 3px; solid yellow;
+		 	border-radius: 10px;
+
+
+
 
 		 }
 
@@ -27,12 +35,32 @@
 		 	font-size: 40px;
 		 	background-color: white;
 		 	border: 2px solid green;
+		 	
 		 	padding: 50px;
 		 	text-align: center;
 		 }
 		 .lentele1 {
 		 	width: 100%;
-		 	border: 2px solid green;
+		 	
+		 }
+		 .b1 {
+		 	background-color: yellow;
+
+		 }
+		 .b2 {
+		 	background-color: green;
+
+		 	}
+		 .b3 {
+		 	background-color: red;
+
+		 }	
+		 .bendras {
+		 	border: 5px solid white;
+		 	float: left; <!-- lygiuote -->
+		 	padding: 20px;
+		 	color: white;
+		 	width: 300px;
 		 }
 	
 	</style>
@@ -43,7 +71,7 @@
 	 <h2>Apie mane</h2>
 	 <p class="paragrafas">Aš esu studentas ir mokausi HTML, PHP ir kitų sunkiai suprantamų dalykų</p>
 	 <h2> Mano lankomiausios svetainės </h2>
-	 <a class="nuoroda" href="http://Facebook.com">Facebook</a> <br />
+	 <a class="nuoroda" href="http://Facebook.com">Facebook</a> 
 	 <a class="nuoroda" href="http://aruodas.lt">Aruodas</a>
 
 	 <h2>Mano muzikos TOP5</h2>
@@ -60,22 +88,38 @@
 	 	
 	 </ul>
 	 <table class="lentele1">
-	 	<tr>
-	 		<td>1</td>
-	 		<td>2</td>
-	 		<td>3</td>
-	 	</tr>
-	 	<tr>
-	 		<td>4</td>
-	 		<td>5</td>
-	 		<td>6</td>
-	 	</tr>
-	 	<tr>
-	 		<td>7</td>
-	 		<td>8</td>
-	 		<td>9</td>
-	 	</tr>
+	    <thead>
+		 <th>A</th>
+		 <th>B</th>
+		 <th>C</th>
+	 	
+	    </thead>
+	    <tbody>
+	 	
+	
+	 	   <tr>
+		 		<td>1</td>
+		 		<td>2</td>
+		 		<td>3</td>
+	 	   </tr>
+	 	   <tr>
+		 		<td colspan="2">4</td>
+	 	
+		 		<td rowspan="2">6</td>
+	 	   </tr>
+	 	   <tr>
+		 		<td>7</td>
+		 		<td>8</td>
+	 		
+	 	   </tr>
+	    </tbody>
+	 
+	 
 
 	 </table>
+	 <div class="b1 bendras">Blokas1</div>
+	 <div class="b2 bendras">Blokas1</div>
+	 <div class="b3 bendras">Blokas1</div>
+	    	
 </body>
 </html>
