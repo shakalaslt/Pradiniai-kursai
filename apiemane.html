@@ -3,13 +3,13 @@
 	<head>
 		<title>Mano pirmas namų darbas</title>
 		<meta charset="utf-8">
-		<style type="text/css">
+		<style>
 			.nuoroda {
 				padding: 15px;
 				padding-top: 10px;
 		 	    color: #808080;
 		 	    background-color: #00ffbf;
-		 	    border: 1px;
+		 	    border: 1px; <!-- ka daro?-->
 		 	    border-radius: 30px;
 		 	    margin: 10px;
 
@@ -36,6 +36,33 @@
 		 	
 		 	    padding: 50px;
 		 	    text-align: center;
+			}
+			.b1 {
+			 	background-color: yellow;
+
+
+			}
+		    .b2 {
+			 	background-color: green;
+
+		 	}
+		    .b3 {
+			 	background-color: red;
+			 	text-align: center;
+			 }
+			 .bendras {
+			 	border: 5px solid #000000;
+			 	float: left; <!-- lygiuote -->
+			 	padding: 20px;
+			 	color: black;
+			 	height: 150px;
+			 	width: 150px;
+			 	margin:20px;
+			 	text-align: center;
+			 	justify-content: center;
+			 	align-items: center;
+			 	display: flex;
+			 	flex-direction: column;
 			}	
 		</style>
 	</head>
@@ -96,6 +123,9 @@
 			
 		</tbody>
 	</table>
+	<div class="b1 bendras">A</div>
+	<div class="b2 bendras">B</div>
+	<div class="b3 bendras">C</div>
 
     </body>
 </html>
