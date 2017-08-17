@@ -1,24 +1,33 @@
 .nuoroda {
 				padding: 20px;
-				padding-top: 20px;
+
+				
+				
+
 				padding-bottom: 10px;
 		 	    color: #808080;
 		 	    background-color: #00ffbf;
 		 	    border: 3px solid blue; 
-		 	    border-radius: 300px;
-		 	    margin: 10px;
+		 	    border-radius: 75px;
+		 	    margin: center;
 		 	    align-items: center;
+		 	    text-align: center;
 
 		 	    
 			}
+
+			
 			.paragrafas {
 				padding-top: 1px;
 				color: blue;
 				border:5px;
 				font-family: verdana;
+				margin-left: 300px;
 			}
 			.antraste {
-				font-family: Comic;
+				font-family: Comic
+				text-align center;
+
 			}
 			 body {
 			 	
@@ -26,7 +35,11 @@
 			 	font-family: arial;
 			} 
 			td {
+
 				font-size: 20px;
+
+				font-size: 40px;
+
 		 	    background-color: #00ffff;
 		 	    border: 2px solid green;
 		 	
@@ -97,3 +110,18 @@
 
 
 			 }
+			 .kvadratas {
+				background-color: green;
+				width: 200px;
+				height: 200px;
+				float: left;
+			}
+			.virsus{
+				float: left;
+				background-color: orange;
+				height: 200px;
+				font-size: 30px;
+				width: 100%
+
+
+			}
