@@ -1,0 +1,99 @@
+.nuoroda {
+				padding: 20px;
+				padding-top: 20px;
+				padding-bottom: 10px;
+		 	    color: #808080;
+		 	    background-color: #00ffbf;
+		 	    border: 3px solid blue; 
+		 	    border-radius: 300px;
+		 	    margin: 10px;
+		 	    align-items: center;
+
+		 	    
+			}
+			.paragrafas {
+				padding-top: 1px;
+				color: blue;
+				border:5px;
+				font-family: verdana;
+			}
+			.antraste {
+				font-family: Comic;
+			}
+			 body {
+			 	
+			 	background-color: linen;
+			 	font-family: arial;
+			} 
+			td {
+				font-size: 20px;
+		 	    background-color: #00ffff;
+		 	    border: 2px solid green;
+		 	
+		 	    padding: 50px;
+		 	    text-align: center;
+			}
+			.b1 {
+			 	background-color: yellow;
+
+
+			}
+		    .b2 {
+			 	background-color: green;
+
+		 	}
+		    .b3 {
+			 	background-color: red;
+			 	text-align: center;
+			 }
+			 .bendras {
+			 	border: 5px solid #000000;
+			 	float: left; <!--lygiuote-->
+			 	padding: 20px;
+			 	color: black;
+			 	height: 150px;
+			 	width: 150px;
+			 	margin:20px;
+			 	text-align: center;
+			 	justify-content: center;
+			 	align-items: center;
+			 	display: flex;
+			 	flex-direction: column;
+			}	
+			 a.ca_link {
+			 	color: red;
+			 	text-decoration: none;
+			 	font-size: 20px;
+			 	border-color: blue;
+			 	border:  2px dashed black;
+			 	padding: 10px;
+			 	border-radius: 5px;
+			 	background-color: yellow;
+			 }
+			 a:hover.ca_link {
+			 	color: red;
+			 	text-decoration: none;
+			 	font-size: 20px;
+			 	border-color: blue;
+			 	border:  2px dashed black;
+			 	padding: 10px;
+			 	border-radius: 5px;
+			 	background-color: orange;
+
+			 }
+			 .tekstas {
+			 	background-color: green;
+			 	padding: 40px;
+			 	margin: 40px;
+			 	float: left;
+			 	width: 300px;
+			 	border-color: blue;
+			 	border:  5px dashed black;
+			 	border-radius: 10px;
+			 	text-align: center;
+             
+
+
+
+
+			 }
